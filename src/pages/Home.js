@@ -44,7 +44,8 @@ const Home = () => {
                     src="/code-sync.png"
                     alt="code-sync-logo"
                 />
-                <h4 className="mainLabel">Paste invitation ROOM ID</h4>
+                <h4 className='tagline'>Zync It — Because Great Code is Never Written Alone.</h4>
+                <h4 className="mainLabel">Enter Invitation Room ID</h4>
                 <div className="inputGroup">
                     <input
                         type="text"
@@ -66,21 +67,21 @@ const Home = () => {
                         Join
                     </button>
                     <span className="createInfo">
-                        If you don't have an invite then create &nbsp;
+                        If you don't have an Invite, Create one &nbsp;
                         <a
                             onClick={createNewRoom}
                             href=""
                             className="createNewBtn"
                         >
-                            new room
+                            New Room
                         </a>
                     </span>
                 </div>
             </div>
             <footer>
                 <h4>
-                    Built with 💛 by &nbsp;
-                    <a href="https://github.com/VirajPatidar" target="_blank" rel="noopener noreferrer">Viraj Patidar</a>
+                    Built with ❤️ by &nbsp;
+                    <a href="https://github.com/TANiSH-17/Zync-It" target="_blank" rel="noopener noreferrer">TANiSH</a>
                 </h4>
             </footer>
         </div>
