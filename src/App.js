@@ -6,34 +6,29 @@ import EditorPage from './pages/EditorPage';
 import { RecoilRoot } from "recoil";
 
 function App() {
-
     return (
-        <>
-        
-            <div>
-                <Toaster
-                    position="top-center"
-                    toastOptions={{
-                        success: {
-                            theme: {
-                                primary: '#4aed88',
-                            },
-                        },
-                    }}
-                ></Toaster>
-            </div>
+        <RecoilRoot>
             <BrowserRouter>
-                <RecoilRoot>
-                    <Routes>
-                        <Route path="/" element={<Home />}></Route>
-                        <Route
-                            path="/editor/:roomId"
-                            element={<EditorPage />}
-                        ></Route>
-                    </Routes>
-                </RecoilRoot>
+                <div>
+                    <Toaster
+                        position="top-center"
+                        toastOptions={{
+                            success: {
+                                theme: {
+                                    primary: '#4aed88',
+                                },
+                            },
+                        }}
+                    />
+                </div>
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/editor/:roomId" element={<EditorPage />} />
+                    {/* Optional: Add a 404 route */}
+                    <Route path="*" element={<h1>404 | Page Not Found</h1>} />
+                </Routes>
             </BrowserRouter>
-        </>
+        </RecoilRoot>
     );
 }
 
