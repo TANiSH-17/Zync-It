@@ -4,7 +4,7 @@ _Zync-it web app is a code editor that allows its users to collaborate and write
 
 <br/>
 
-**Link to the web app:** [(https://zync-it-frontend1.onrender.com/)((https://zync-it-frontend1.onrender.com/))] <br/>
+**Link to the web app:** [(https://zync-it-frontend1.onrender.com/) <br/>
 
 <br/>
 
