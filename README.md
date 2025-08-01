@@ -1,10 +1,10 @@
-# Code Sync
+#Zync-It
 
-_Code Sync web app is a code editor that allows its users to collaborate and write code together. It provides basic editing features and the changes are synced in realtime. The editor supports syntax of 21 programming languages and offers 63 design themes._
+_Zync-it web app is a code editor that allows its users to collaborate and write code together. It provides basic editing features and the changes are synced in realtime. The editor supports syntax of 21 programming languages and offers 63 design themes._
 
 <br/>
 
-**Link to the web app:** [https://code-sync-qq8w.onrender.com/](https://code-sync-qq8w.onrender.com/) <br/>
+**Link to the web app:** [(https://zync-it-frontend1.onrender.com/)((https://zync-it-frontend1.onrender.com/))] <br/>
 
 <br/>
 
